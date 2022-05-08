@@ -1,6 +1,9 @@
 /* Give your page a fun background color */
-header{
-    color: #8e9617
+header {
+    background-color: #ced665
+}
+footer {
+    background-color: #afe6f1
 }
 /* Make the header and footer a different color from the background */
 
@@ -31,11 +34,15 @@ img{
 /* Change the font-family of your list */
 li {
     font-family: Courier, Arial, Helvetica;
-    text-align: 
+    list-style-type: none
 }
 
 img{
-    width: 600px;
-    height: 280px;
+    width: 400px;
+    height: 200px;
+}
 
+ul{
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
