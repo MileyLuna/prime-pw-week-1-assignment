@@ -1,9 +1,9 @@
 /* Give your page a fun background color */
-header {
-    background-color: #ced665
+.wrapper1 {
+    background-color: #afe6f1;
 }
-footer {
-    background-color: #afe6f1
+.wrapper2 { 
+    background-color: #afe6f1;
 }
 /* Make the header and footer a different color from the background */
 
@@ -27,7 +27,9 @@ p{
 /* Put a border around your image */
 img{
     border: thick double #FEDC56; 
-    border-width: 1em; 
+    border-width: 1em;
+    width: 400px;
+    height: 200px; 
     
 }
 
@@ -37,10 +39,6 @@ li {
     list-style-type: none
 }
 
-img{
-    width: 400px;
-    height: 200px;
-}
 
 ul{
     margin-top: 25px;
